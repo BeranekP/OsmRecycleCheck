@@ -34,6 +34,17 @@ jobs:
 
     - name: Convert to GeoJson
       run:  osmtogeojson missingRecycling.json > missingRecycling.geojson
+
+    - name: Commit changes
+      run: |
+        git config --global user.email "pavel.beranek@gmx.com"
+        git config --global user.name "BeranekP"
+        git add missingRecycling.geojson
+        git commit -m "Update data"
+        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
 
   
