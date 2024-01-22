@@ -30,7 +30,7 @@ jobs:
         node-version: '10.x'
 
     - name: osmtogeojson
-      run: npm install osmtogeojson
+      run: npm install -g osmtogeojson
 
   run:
     runs-on: ubuntu-latest
