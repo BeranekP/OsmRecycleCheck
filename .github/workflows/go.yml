@@ -35,8 +35,6 @@ jobs:
   run:
     runs-on: ubuntu-latest
     steps: 
-    - name: Get data
-      run: ./OsmRecycleCheck
     - name: Convert to GeoJson
       run:  osmtogeojson missingRecycling.json > missingRecycling.geojson
     
