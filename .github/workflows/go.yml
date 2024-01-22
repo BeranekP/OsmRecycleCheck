@@ -32,9 +32,6 @@ jobs:
     - name: osmtogeojson
       run: npm install -g osmtogeojson
 
-  run:
-    runs-on: ubuntu-latest
-    steps: 
     - name: Convert to GeoJson
       run:  osmtogeojson missingRecycling.json > missingRecycling.geojson
     
