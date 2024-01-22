@@ -73,12 +73,7 @@ func Recycle() {
 	}
 	//fmt.Println(containers)
 
-	remove_err := os.Remove("containers.json")
-	if remove_err != nil {
 
-		log.Fatal("Error removing file: ", remove_err)
-
-	}
 
 	file, _ := json.MarshalIndent(containers, "", " ")
 	os.WriteFile("containers.json", file, 0644)
