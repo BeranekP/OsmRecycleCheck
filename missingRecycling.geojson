@@ -8205,22 +8205,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/2760467324",
-  "properties": {
-    "amenity": "recycling",
-    "recycling_type": "container",
-    "id": "node/2760467324"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      17.275566,
-      49.591396
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/2774670788",
   "properties": {
     "amenity": "recycling",
