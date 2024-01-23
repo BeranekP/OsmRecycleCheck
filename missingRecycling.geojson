@@ -4617,24 +4617,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/1714057860",
-  "properties": {
-    "amenity": "recycling",
-    "description": "Vedle zdi areálu, venkovní strana.",
-    "name": "Kontejnery / odpadky",
-    "recycling_type": "container",
-    "id": "node/1714057860"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      16.137209,
-      50.572548
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/1717623574",
   "properties": {
     "amenity": "recycling",
@@ -6135,24 +6117,6 @@
     "coordinates": [
       17.274368,
       49.592777
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/2211387352",
-  "properties": {
-    "amenity": "recycling",
-    "name": "kontejnery na tříděný odpad",
-    "recycling_type": "container",
-    "source": "own knowledge",
-    "id": "node/2211387352"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      14.334184,
-      50.07798
     ]
   }
 },
@@ -16393,23 +16357,6 @@
     "coordinates": [
       14.695318,
       50.01395
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/3805420037",
-  "properties": {
-    "amenity": "recycling",
-    "name": "Školní",
-    "recycling_type": "container",
-    "id": "node/3805420037"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      16.144688,
-      50.356834
     ]
   }
 },
@@ -44058,38 +44005,6 @@
     "coordinates": [
       16.080154,
       48.8504
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11541786901",
-  "properties": {
-    "amenity": "recycling",
-    "recycling_type": "container",
-    "id": "node/11541786901"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      14.325705,
-      48.811497
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11541879302",
-  "properties": {
-    "amenity": "recycling",
-    "recycling_type": "container",
-    "id": "node/11541879302"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      12.675756,
-      50.181858
     ]
   }
 }
