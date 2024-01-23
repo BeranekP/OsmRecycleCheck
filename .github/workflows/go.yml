@@ -4,10 +4,6 @@
 name: Go
 
 on:
-  push:
-    branches: [ "master" ]
-  pull_request:
-    branches: [ "master" ]
   schedule:
     - cron: "0 */6 * * *"
 
@@ -42,9 +38,11 @@ jobs:
         git config --global user.email "pavel.beranek@gmx.com"
         git config --global user.name "BeranekP"
         git add missingRecycling.geojson
-        git commit -m "Update data"
-        git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        git push
+        if ! git diff-index --quiet HEAD; then
+          git commit -m "Update data"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     
