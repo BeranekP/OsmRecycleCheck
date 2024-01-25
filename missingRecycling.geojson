@@ -42673,22 +42673,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11383734873",
-  "properties": {
-    "amenity": "recycling",
-    "recycling_type": "container",
-    "id": "node/11383734873"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      14.202337,
-      50.014786
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11383831861",
   "properties": {
     "amenity": "recycling",
@@ -43624,38 +43608,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11545889877",
-  "properties": {
-    "amenity": "recycling",
-    "recycling_type": "container",
-    "id": "node/11545889877"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      12.655047,
-      50.176254
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11545889911",
-  "properties": {
-    "amenity": "recycling",
-    "recycling_type": "container",
-    "id": "node/11545889911"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      12.658587,
-      50.176296
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11546203742",
   "properties": {
     "amenity": "recycling",
@@ -43672,97 +43624,273 @@
 },
 {
   "type": "Feature",
-  "id": "node/11546251877",
+  "id": "node/11546946873",
   "properties": {
     "amenity": "recycling",
     "recycling_type": "container",
-    "id": "node/11546251877"
+    "id": "node/11546946873"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      12.645933,
-      50.17397
+      12.643705,
+      50.1792
     ]
   }
 },
 {
   "type": "Feature",
-  "id": "node/11546251901",
+  "id": "node/11547225463",
   "properties": {
     "amenity": "recycling",
     "recycling_type": "container",
-    "id": "node/11546251901"
+    "id": "node/11547225463"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      12.6464205,
-      50.173954
+      12.674681,
+      50.17366
     ]
   }
 },
 {
   "type": "Feature",
-  "id": "node/11546592699",
+  "id": "node/11547239516",
   "properties": {
     "amenity": "recycling",
     "recycling_type": "container",
-    "id": "node/11546592699"
+    "id": "node/11547239516"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      12.636779,
-      50.178253
+      12.667398,
+      50.176804
     ]
   }
 },
 {
   "type": "Feature",
-  "id": "node/11546598656",
+  "id": "node/11547239554",
   "properties": {
     "amenity": "recycling",
     "recycling_type": "container",
-    "id": "node/11546598656"
+    "id": "node/11547239554"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      12.666043,
-      50.171547
+      12.661892,
+      50.176353
     ]
   }
 },
 {
   "type": "Feature",
-  "id": "node/11546645678",
+  "id": "node/11547239555",
   "properties": {
     "amenity": "recycling",
     "recycling_type": "container",
-    "id": "node/11546645678"
+    "id": "node/11547239555"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      12.668947,
-      50.170605
+      12.661629,
+      50.176422
     ]
   }
 },
 {
   "type": "Feature",
-  "id": "node/11546645688",
+  "id": "node/11547477538",
   "properties": {
     "amenity": "recycling",
     "recycling_type": "container",
-    "id": "node/11546645688"
+    "id": "node/11547477538"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      12.670249,
-      50.17077
+      12.6694765,
+      50.168663
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11548002005",
+  "properties": {
+    "amenity": "recycling",
+    "recycling_type": "container",
+    "id": "node/11548002005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.659689,
+      50.171917
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11548077915",
+  "properties": {
+    "amenity": "recycling",
+    "recycling_type": "container",
+    "id": "node/11548077915"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.677053,
+      50.176514
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11548100634",
+  "properties": {
+    "amenity": "recycling",
+    "recycling_type": "container",
+    "id": "node/11548100634"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.633936,
+      50.16573
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11548144390",
+  "properties": {
+    "amenity": "recycling",
+    "recycling_type": "container",
+    "id": "node/11548144390"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.645779,
+      50.162975
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11548144391",
+  "properties": {
+    "amenity": "recycling",
+    "recycling_type": "container",
+    "id": "node/11548144391"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.645828,
+      50.16299
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11548144446",
+  "properties": {
+    "amenity": "recycling",
+    "recycling_type": "container",
+    "id": "node/11548144446"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.636122,
+      50.167263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11548188664",
+  "properties": {
+    "amenity": "recycling",
+    "recycling_type": "container",
+    "id": "node/11548188664"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.650942,
+      50.181046
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11548197779",
+  "properties": {
+    "amenity": "recycling",
+    "recycling_type": "container",
+    "id": "node/11548197779"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.646862,
+      50.18178
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11548239243",
+  "properties": {
+    "amenity": "recycling",
+    "recycling_type": "container",
+    "id": "node/11548239243"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.648332,
+      50.177505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11548253189",
+  "properties": {
+    "amenity": "recycling",
+    "recycling_type": "container",
+    "id": "node/11548253189"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.663365,
+      50.17623
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11548253197",
+  "properties": {
+    "amenity": "recycling",
+    "recycling_type": "container",
+    "id": "node/11548253197"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      12.663025,
+      50.17601
     ]
   }
 }
