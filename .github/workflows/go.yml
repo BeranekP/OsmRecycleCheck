@@ -39,8 +39,9 @@ jobs:
       run: |
         git config --global user.email "pavel.beranek@gmx.com"
         git config --global user.name "BeranekP"
-        git add missingRecycling.geojson
         git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}  
+        git pull
+        git add missingRecycling.geojson
         git commit -m "Update data"
         git push
         
